@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the host to the container
-COPY /var/lib/jenkins/workspace/rav/Monolithic/target/Monolithic-0.0.1-SNAPSHOT.jar /app/myapp.jar
+COPY target/Monolithic-0.0.1-SNAPSHOT.jar /app/myapp.jar
 
 # Expose the application port (if applicable)
 EXPOSE 1432
