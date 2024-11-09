@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the JAR file from the host to the container
 COPY target/Monolithic-0.0.1-SNAPSHOT.jar /app/myapp.jar
 
-# Expose the application port (if applicable)
+# Expose the application port t (if applicable)
 EXPOSE 1432
 
 # Command to run the application
